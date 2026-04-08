@@ -1,0 +1,214 @@
+@font-face {
+    font-family: 'robotoregular';
+    src: url('fonts/roboto.regular/roboto-regular-webfont.woff2') format('woff2'),
+         url('fonts/roboto.regular/roboto-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+html {
+    font-size: 62.5%;
+    min-width: 130rem
+}
+
+body {
+    font-family: robotoregular, Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+.top {
+    background-color: #222020;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 12rem;
+    align-items: center;
+    height: 10rem;
+}
+
+.top__logo {
+    height: 6rem;
+
+}
+
+.top-menu{
+    display: flex;
+    gap: 4ch;
+    list-style-type: none;
+}
+
+.top-menu a{
+    font-size: 1.4rem;
+    font-weight: bolder;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #c5ad0f;
+    padding: 1.2rem;
+    border: solid 1px #c5ad0f;
+    letter-spacing: .2ch;
+}
+
+.top-menu a:hover {
+    background-color: #c5ad0f;
+    color: #222020;
+    transition-duration: .5s;
+}
+
+.section1 {
+    margin: 0;
+    background: linear-gradient(to bottom, #fffffc, #f6d501);
+    display: flex;
+}
+
+.section1-text {
+    margin: 12rem 6rem;
+
+}
+.section1-text__title {
+    font-size: 8rem;
+    max-width: 13ch;
+}
+
+.section1__button {
+    font-family: robotoregular, Arial, Helvetica, sans-serif;
+    font-size: 2rem;
+    text-decoration: none;
+    padding: 2rem 5rem;
+    color:black;
+    background-color: #f6bd01;
+    border-radius: 7px;
+}
+
+.section1__button:hover{
+    background-color: black;
+    color: #f6bd01;
+    transition-duration: .5s;
+}
+
+.section1 img {
+    min-width: 30rem;
+}
+
+.section2 {
+    background-color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+}
+
+.section2__title {
+    font-size: 4rem;
+    text-align: center;
+    margin: 8rem 0;
+}
+
+.section2-cursos {
+    display: flex;
+    width: fit-content;
+    margin: 0 auto;
+    gap: 2rem;
+}
+
+.section2-cursos-item {
+    background-color: white;
+    height: 40rem;
+}
+
+.section2-cursos-item__title {
+    font-size: 2rem;
+    letter-spacing: .2ch;
+    margin-left: 2ch;
+}
+.section2-cursos-item__text {
+    font-size: 1.5rem;
+    color: #555;
+    width: 45ch;
+    margin-left: 2ch;
+}
+
+.section2__button {
+    margin: 10rem auto 15rem auto;
+    text-align: center;
+}
+.section2__button a{
+    text-align: center;
+    font-family: robotoregular, Arial, Helvetica, sans-serif;
+    font-size: 2rem;
+    text-decoration: none;
+    padding: 2rem 5rem;
+    color:black;
+    background-color: #f6bd01;
+    border-radius: 7px;
+    
+}
+
+.section2__button a:hover {
+    background-color: black;
+    color: #f6bd01;
+    transition-duration: .5s;
+
+}
+
+.section3 {
+    background-color: #181560;
+    display: flex;
+    height: 55rem;
+}
+
+.section3 img {
+    height: 50rem;
+    margin-top: 5rem;
+}
+.section3-text {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    margin: auto 4rem auto 6rem;
+
+}
+
+.section3-text__title {
+    font-size: 7rem;
+}
+
+.section3-text__text {
+    font-size: 1.8rem;
+    width: 50ch;
+}
+
+.section4-title {
+    font-size: 4rem;
+    text-align: center;
+    margin: 8rem 0 4rem;
+}
+
+.section4__map {
+    width: 90vw;
+    margin: 2rem auto;
+    height: 50rem;
+}
+
+.section4__map iframe {
+    width: 100%;
+    height: 100%;
+    border-radius: 1.5rem;
+}
+
+.section4__contatos {
+    font-size: 1.8rem;
+    width: 18ch;
+    margin: .5rem 7rem 3rem auto;
+}
+
+.bottom {
+    background-color: #222020;
+    height: 8rem;
+    display: flex;
+    flex-direction: column;
+}
+.bottom__text {
+    color: white;
+    font-size: 1.5rem;
+    text-align: center;
+    margin-top: 3rem
+}
