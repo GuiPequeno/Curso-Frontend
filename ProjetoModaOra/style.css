@@ -1,0 +1,165 @@
+@font-face {
+    font-family: 'robotoregular';
+    src: url('fonts/roboto.regular/roboto-regular-webfont.woff2') format('woff2'),
+         url('fonts/roboto.regular/roboto-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'viaoda_libreregular';
+    src: url('fonts/viaoda_libre/viaodalibre-regular-webfont.woff2') format('woff2'),
+         url('fonts/viaoda_libre/viaodalibre-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+html{
+    font-size: 62.5%;
+    min-width: 100rem;
+
+    
+}
+
+body {
+    margin: 0;
+    font-family: robotoregular, sans-serif;
+}
+
+.top {
+    height: 7.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    background-color: #162028;
+}
+
+.top__logo {
+    flex-shrink: 0;
+    font-family: viaoda_libreregular, sans-serif;
+    font-size: 4.5rem;
+    margin-left: 5ch;
+}
+
+.top__menu ul{
+    display: flex;
+    align-items: center;
+    gap: 10ch;
+    list-style-type: none;
+    margin-right: 20ch;
+    
+}
+
+.top__menu a {
+    flex-shrink: 0;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: rgb(128, 128, 128, .3);
+    font-size: 1.7rem;
+    letter-spacing: .5rem;    
+}
+
+.top__menu a:hover {
+    transition-property: all;
+    transition-duration: .3s;
+    color: white;
+}
+
+.main__photo img {
+    width: 100%;
+}
+
+.article1-title {
+    margin-top: 15rem;
+    font-family: viaoda_libreregular, sans-serif;
+    text-align: center;
+    font-size: 5rem;
+    font-weight: lighter;
+}
+
+.article1-text {
+    font-family: robotoregular, sans-serif;
+    color: #555;
+    font-size: 2rem;
+    text-align: center;
+    max-width: 90ch;
+    margin: 4rem auto;
+    line-height: 3.5rem;
+}
+
+.article1-photos {
+    display: flex;
+    justify-content: center;
+    gap: 5rem;
+    flex-shrink: 1;
+}
+
+.article1-photos img {
+    width: 30rem;
+}
+
+.article1-photos__title {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 1.6rem;
+    color: black;
+    letter-spacing: .5ch;
+}
+
+.article1-photos__subtitle {
+    font-family: robotoregular, sans-serif;
+    color: #555;
+    font-size: 1.6rem;
+    text-align: center;
+    max-width: 90ch;
+}
+
+.article2 {
+    margin-top: 10rem;
+    background-color: #003d52;
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 0;
+}
+
+.article2-title {
+    text-transform: uppercase;
+    font-family: viaoda_libreregular, sans-serif;
+    font-size: 7rem;
+    width: 35ch;
+    margin: 20rem auto 0rem auto;
+    line-height: 8.5rem;
+    font-weight: lighter;
+
+
+}
+
+.article2-text {
+    font-family: robotoregular, sans-serif;
+    font-size: 2rem;
+    max-width: 65ch;
+    margin: 5rem auto 12rem 9rem;
+    line-height: 3.5rem;
+}
+
+.footer {
+    background-color: #0b171f;
+    height: 8rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-text {
+    color: #6f8597;
+    font-size: 2rem;
+    letter-spacing: .5ch;
+    margin-top: 2.5rem;
+    text-align: center;
+}
+
